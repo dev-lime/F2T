@@ -5,18 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="img/logo.png">
-        <title>Сайт памяти</title>
-<script src="script.js" defer></script>
+        <title>F2T</title>
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><img src="img/logo.png" alt="Logo" id="img-logo"></li>
                     <li><a href="index.html" id="button-main">Главная</a></li>
                     <li id="separator">|</li>
-                    <li><a href="pages/install.html" id="button-first">Транспорт</a></li>
-                    <li><a href="pages/theory.html" id="button-second">Электроника</a></li>
+                    <li><a href="pages/transport.html">Транспорт</a></li>
+                    <li><a href="pages/electronics.html">Электроника</a></li>
+                    <li><a href="pages/accessories.html">Аксессуары</a></li>
                 </ul>
             </nav>
         </header>
@@ -26,10 +25,11 @@
                 <div class="column column-20">
                     <div class="card">
                         <h2>Новости</h2>
-                        <a href="https://github.blog/2023-11-20-highlights-from-git-2-43/">
+                        <a href="index.html">
                             <div class="news-card">
-                                <h3>Git 2.43</h3>
-                                <p>The last Git release of 2023 is here! Take a look at some of our highlights on what's new in Git 2.43.</p>
+                                <h3>Public access</h3>
+                                <p>Данный сайт теперь в публичном доступе на главной странице моего GitHub!</p>
+                                <i>17.04.2025</i>
                             </div>
                         </a>
                     </div>
@@ -37,75 +37,72 @@
                         <h2>Навигация</h2>
                         <ul class="menu-list">
                             <li><a href="#welcome">Добро пожаловать</a></li>
-                            <li><a href="#how-to-use">Как пользоваться</a></li>
+                            <li><a href="#why">Почему я создал этот проект?</a></li>
+                            <li><a href="#what">Что можно сохранить здесь?</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="navigation-buttons">
                     <a href="index.html">
-                        <!--<img src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/home--v1.png" alt="home--v1"/>-->
+                        <!--src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/home--v1.png"-->
                         <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/home.png" alt="home"/>
                         <span class="button-text">
                             Главная
                         </span>
                     </a>
-                    <a href="pages/install.html">
-                        <!--<img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/download-2.png" alt="download-2"/>-->
-                        <img src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/download-2.png" alt="download-2"/>
+                    <a href="pages/transport.html">
+                        <!--src="https://img.icons8.com/ios-filled/48/FFFFFF/suv.png"-->
+                        <img src="https://img.icons8.com/ios/48/FFFFFF/suv.png" alt="auto"/>
                         <span class="button-text">
-                            Установка
+                            Транспорт
                         </span>
                     </a>
-                    <a href="pages/theory.html">
-                        <!--<img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/bookmark.png" alt="bookmark"/>-->
-                        <img src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/bookmark--v1.png" alt="bookmark--v1"/>
+                    <a href="pages/electronics.html">
+                        <img src="https://img.icons8.com/ios/100/FFFFFF/iphone14-pro.png" alt="phone"/>
                         <span class="button-text">
-                            Теория
+                            Электроника
                         </span>
                     </a>
-                    <a href="pages/practice.html">
-                        <!--<img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/check-all.png" alt="check-all"/>-->
-                        <img src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/check-all.png" alt="check-all"/>
+                    <a href="pages/accessories.html">
+                        <img src="https://img.icons8.com/sf-regular/48/FFFFFF/watches-front-view.png" alt="watch"/>
                         <span class="button-text">
-                            Практика
+                            Аксессуары
                         </span>
                     </a>
                 </div>
                 <div class="column column-80">
                     <div class="card">
-                        <h1><a name="welcome">Добро пожаловать на сайт памяти личных вещей!</a></h1>
-                        <p><img src="img/logo_full.png" alt="Logo_full" id="img-logo_full"></p>
-                        <p><strong>GitGuide</strong> - это учебное пособие по системе контроля версий Git, созданное для того, чтобы помочь вам освоить основы Git и научиться эффективно использовать его в ваших проектах. Git - мощный инструмент, который позволяет отслеживать изменения в коде, сотрудничать с другими разработчиками и управлять версиями проектов.</p>
-                        <p><strong>Что вы найдете на GitGuide:</strong></p>
-                        <ul>
-                            <li>Основы Git: Познакомьтесь с основными концепциями Git, такими как репозитории, коммиты, ветки и слияния.</li>
-                            <li>Установка и настройка: Шаг за шагом руководство по установке Git и его базовой конфигурации для вашего проекта.</li>
-                            <li>Команды Git: Полный список важных команд Git с пояснениями и примерами использования.</li>
-                            <li>Сотрудничество с Git: Как эффективно работать с другими разработчиками, решая конфликты и управляя проектами в команде.</li>
-                            <li>GitHub и GitLab: Интеграция Git с платформами для хостинга, такими как GitHub и GitLab, для удобного взаимодействия с вашими проектами.</li>
-                        </ul>
-                        <p>Не важно, новичок вы или опытный разработчик, GitGuide предоставляет понятные и наглядные материалы, чтобы помочь вам использовать Git на полную мощность. Изучайте, экспериментируйте и делитесь своим опытом с GitGuide!</p>
-                        <p><strong>Начните свой путь в мире Git прямо сейчас!</strong></p>
+                        <h1><a name="welcome">Farewell To Things — мой музей важных вещей</a></h1>
+                        <p>Этот сайт создан для того, чтобы сохранить память о вещах, которые были важной частью моей жизни, но с которыми пришлось попрощаться. Здесь находятся цифровые памятники предметам, сопровождавшим меня в важные моменты — будь то радостные события или трудные периоды, когда эти вещи становились молчаливыми спутниками.</p>
+                        <p>Для меня эти страницы — способ отдать дань уважения предметам, которые формировали мой опыт. Каждая вещь здесь не просто функциональный объект, а свидетель этапов моей биографии, сохранивший в себе отпечатки пережитых эмоций и ситуаций.</p>
                     </div>
+                    
                     <div class="card">
-                        <h2><a name="how-to-use">Как пользоваться</a></h2>
-                        <h3>Регистрация и Вход в Систему</h3>
-                        <p>Первым шагом на пути к использованию GitGuide является регистрация. Просто нажмите на кнопку "Регистрация" в верхнем правом углу и заполните необходимую информацию. Если у вас уже есть аккаунт, воспользуйтесь опцией "Вход", введя свой логин и пароль.</p>
-                        <h3>Поиск Информации</h3>
-                        <p>GitGuide предоставляет обширный каталог статей и руководств, охватывающих все аспекты Git и GitHub. Воспользуйтесь поиском для быстрого доступа к необходимой информации. Просто введите ключевые слова в поле поиска и выберите подходящую статью из результатов.</p>
-                        <h3>Навигация по Категориям</h3>
-                        <p>На главной странице сайта вы найдете удобные категории, сгруппированные по темам. Используйте их, чтобы быстро найти нужные материалы. От основ Git до продвинутых тем — у нас есть ресурсы для всех уровней навыков.</p>
-                        <h3>Интерактивные Обучающие Модули</h3>
-                        <p>Для облегчения процесса обучения мы предлагаем интерактивные обучающие модули. Пройдите через них, чтобы закрепить теоретические знания практическим опытом.</p>
-                        <h3>Вопросы и Ответы</h3>
-                        <p>Если у вас возникли вопросы, загляните в раздел "FAQ" (Часто задаваемые вопросы). Возможно, здесь уже есть ответы на ваши запросы. Если нет, вы всегда можете связаться с нами через форму обратной связи.</p>
+                        <h3><a name="why">Почему я сделал этот архив?</a></h3>
+                        <p>Я всегда испытывал особую связь с вещами, которые долго служили мне: первый автомобиль, открывший свободу передвижения; ноутбук, на котором создавались важные проекты...</p>
+                        <p>Расставаясь с ними, я понял, что теряю не просто инструменты, а молчаливых участников своей истории. Этот сайт — попытка сохранить их образы и связанные с ними воспоминания, прежде чем они растворятся в прошлом.</p>
+                        <p>Особенно остро эта потребность возникла, когда я разбил свой телефон, прослуживщий верой и правдой долгие 6 лет — тогда я осознал, что вместе с ним уходит целый пласт воспоминаний: фотографии мест, где я больше не побываю, люди, с которыми обменивался сообщениями, эмоции, испытанные за просмотров фильмов.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><a name="what">Что можно сохранить здесь?</a></h3>
+                        <p>На этом сайте есть место для любых вещей, оставивших след в жизни каждого. Вот лишь некоторые примеры:</p>
+                        <ul>
+                            <li><strong>Транспорт:</strong> автомобили, ставшие свидетелями путешествий; мотоциклы, дарившие ощущение свободы; велосипеды, на которых многие катались в детстве</li>
+                            <li><strong>Электроника:</strong> телефоны, хранившие ваши переписки; ноутбуки, помогавшие в работе и творчестве; камеры, фиксировавшие важные моменты</li>
+                            <li><strong>Другие личные вещи с историей:</strong> часы, полученные в подарок; музыкальные инструменты; книги с пометками на полях; даже любимые предметы одежды</li>
+                        </ul>
+                        <p>Не столь важно, была ли это дорогая вещь или простой безделушка — ценность определяете только вы. Главное, чтобы этот предмет что-то значил для вас и оставил после себя теплые воспоминания.</p>
+                        <p>Со временем я планирую добавлять сюда новые объекты из своего прошлого — ведь наши вещи это материальные якоря памяти, способные вернуть ощущения и мысли давно прошедших дней.</p>
                     </div>
                 </div>
             </div>
         </main>
 
         <footer>
-            <p>&copy; 2025 Website. Никакие права не защищены.</p>
+            <script src="script.js" defer></script>
+            <p>&copy; 2025 FarewellToThings.<br>Проект создан с любовью к вещам, которые нас формируют.</p>
+            <p>Иконки от <a href="https://icons8.com" target="_blank">Icons8</a></p>
         </footer>
     </body>
 </html>

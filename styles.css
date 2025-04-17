@@ -3,12 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #202020;
     color: #ffffff;
-
-    /*background-image: url('https://w.forfun.com/fetch/6d/6dfcc6b806763b6a356a2198184cc9a5.jpeg');
-    background-size: cover;
-    background-position: center;*/
 }
-
 
 header {
     background-color: #2d2d2d78;
@@ -17,7 +12,6 @@ header {
     padding: 16px 0;
     border-radius: 8px;
 }
-
 
 #img-logo {
     width: 16px;
@@ -100,12 +94,10 @@ nav #button-main:hover {
     }
 }
 
-/* Стили для кнопок перехода по умолчанию (для больших экранов) */
 .navigation-buttons {
     display: none;
 }
 
-/* Стили для мобильных устройств */
 @media only screen and (max-width: 767px) {
     header {
         display: none;
@@ -114,15 +106,15 @@ nav #button-main:hover {
     .navigation-buttons {
         display: flex;
         justify-content: space-between;
-        align-items: stretch; /* Растягиваем кнопки на всю высоту панели */
+        align-items: stretch;
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;   
-        height: 56px; /* Задайте желаемую высоту панели */
+        height: 56px;
         background-color: #00000078;
         backdrop-filter: blur(8px);
-        transition: background-color 0.2s ease-out; /* Плавные переходы для фона */
+        transition: background-color 0.2s ease-out;
         transition: transform 0.2s ease-out;
         z-index: 1;
     }
@@ -140,13 +132,13 @@ nav #button-main:hover {
         font-size: 12px;
         color: #ffffff;
         background-color: transparent;
-        border: none; /* Убираем границы кнопки */
+        border: none;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end; /* Надпись внизу кнопки */
-        align-items: center; /* Изображение по центру кнопки */
-        transition: background-color 0.2s ease-out; /* Плавные переходы для фона */
+        justify-content: flex-end;
+        align-items: center;
+        transition: background-color 0.2s ease-out;
     }
   
     .navigation-buttons a img {
@@ -163,7 +155,23 @@ nav #button-main:hover {
     }
 }
 
+footer a {
+    color: #76b9ed;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
 
+footer a:hover {
+    background-color: #3e3e3e;
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: #6da9d8;
+}
 
 .container {
     display: flex;
@@ -247,10 +255,6 @@ nav #button-main:hover {
 
 .menu-list a:hover {
     background-color: #3e3e3e;
-}
-
-#feedback-card textarea {
-    
 }
 
 footer {
